@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062B15081F0F617D00B2BFB7 /* CzyRollerCoasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 062B15071F0F617D00B2BFB7 /* CzyRollerCoasterView.m */; };
+		06CDD0611F0DDBDB00B50523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CDD0601F0DDBDB00B50523 /* main.m */; };
+		06CDD0641F0DDBDB00B50523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CDD0631F0DDBDB00B50523 /* AppDelegate.m */; };
+		06CDD0671F0DDBDB00B50523 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CDD0661F0DDBDB00B50523 /* ViewController.m */; };
+		06CDD06A1F0DDBDB00B50523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CDD0681F0DDBDB00B50523 /* Main.storyboard */; };
+		06CDD06C1F0DDBDB00B50523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CDD06B1F0DDBDB00B50523 /* Assets.xcassets */; };
+		06CDD06F1F0DDBDB00B50523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CDD06D1F0DDBDB00B50523 /* LaunchScreen.storyboard */; };
+		06CDD07A1F0DDBDB00B50523 /* czyRollerCoasterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CDD0791F0DDBDB00B50523 /* czyRollerCoasterDemoTests.m */; };
+		06CDD0851F0DDBDB00B50523 /* czyRollerCoasterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CDD0841F0DDBDB00B50523 /* czyRollerCoasterDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06CDD0761F0DDBDB00B50523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06CDD0541F0DDBDB00B50523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CDD05B1F0DDBDB00B50523;
+			remoteInfo = czyRollerCoasterDemo;
+		};
+		06CDD0811F0DDBDB00B50523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06CDD0541F0DDBDB00B50523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CDD05B1F0DDBDB00B50523;
+			remoteInfo = czyRollerCoasterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062B15061F0F617D00B2BFB7 /* CzyRollerCoasterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CzyRollerCoasterView.h; sourceTree = "<group>"; };
+		062B15071F0F617D00B2BFB7 /* CzyRollerCoasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CzyRollerCoasterView.m; sourceTree = "<group>"; };
+		06CDD05C1F0DDBDB00B50523 /* czyRollerCoasterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = czyRollerCoasterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CDD0601F0DDBDB00B50523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06CDD0621F0DDBDB00B50523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06CDD0631F0DDBDB00B50523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06CDD0651F0DDBDB00B50523 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06CDD0661F0DDBDB00B50523 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06CDD0691F0DDBDB00B50523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06CDD06B1F0DDBDB00B50523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06CDD06E1F0DDBDB00B50523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06CDD0701F0DDBDB00B50523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CDD0751F0DDBDB00B50523 /* czyRollerCoasterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = czyRollerCoasterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CDD0791F0DDBDB00B50523 /* czyRollerCoasterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = czyRollerCoasterDemoTests.m; sourceTree = "<group>"; };
+		06CDD07B1F0DDBDB00B50523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CDD0801F0DDBDB00B50523 /* czyRollerCoasterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = czyRollerCoasterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CDD0841F0DDBDB00B50523 /* czyRollerCoasterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = czyRollerCoasterDemoUITests.m; sourceTree = "<group>"; };
+		06CDD0861F0DDBDB00B50523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06CDD0591F0DDBDB00B50523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CDD0721F0DDBDB00B50523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CDD07D1F0DDBDB00B50523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CDD0531F0DDBDB00B50523 = {
+			isa = PBXGroup;
+			children = (
+				06CDD05E1F0DDBDB00B50523 /* czyRollerCoasterDemo */,
+				06CDD0781F0DDBDB00B50523 /* czyRollerCoasterDemoTests */,
+				06CDD0831F0DDBDB00B50523 /* czyRollerCoasterDemoUITests */,
+				06CDD05D1F0DDBDB00B50523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06CDD05D1F0DDBDB00B50523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD05C1F0DDBDB00B50523 /* czyRollerCoasterDemo.app */,
+				06CDD0751F0DDBDB00B50523 /* czyRollerCoasterDemoTests.xctest */,
+				06CDD0801F0DDBDB00B50523 /* czyRollerCoasterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06CDD05E1F0DDBDB00B50523 /* czyRollerCoasterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				062B15061F0F617D00B2BFB7 /* CzyRollerCoasterView.h */,
+				062B15071F0F617D00B2BFB7 /* CzyRollerCoasterView.m */,
+				06CDD0621F0DDBDB00B50523 /* AppDelegate.h */,
+				06CDD0631F0DDBDB00B50523 /* AppDelegate.m */,
+				06CDD0651F0DDBDB00B50523 /* ViewController.h */,
+				06CDD0661F0DDBDB00B50523 /* ViewController.m */,
+				06CDD0681F0DDBDB00B50523 /* Main.storyboard */,
+				06CDD06B1F0DDBDB00B50523 /* Assets.xcassets */,
+				06CDD06D1F0DDBDB00B50523 /* LaunchScreen.storyboard */,
+				06CDD0701F0DDBDB00B50523 /* Info.plist */,
+				06CDD05F1F0DDBDB00B50523 /* Supporting Files */,
+			);
+			path = czyRollerCoasterDemo;
+			sourceTree = "<group>";
+		};
+		06CDD05F1F0DDBDB00B50523 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD0601F0DDBDB00B50523 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06CDD0781F0DDBDB00B50523 /* czyRollerCoasterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD0791F0DDBDB00B50523 /* czyRollerCoasterDemoTests.m */,
+				06CDD07B1F0DDBDB00B50523 /* Info.plist */,
+			);
+			path = czyRollerCoasterDemoTests;
+			sourceTree = "<group>";
+		};
+		06CDD0831F0DDBDB00B50523 /* czyRollerCoasterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD0841F0DDBDB00B50523 /* czyRollerCoasterDemoUITests.m */,
+				06CDD0861F0DDBDB00B50523 /* Info.plist */,
+			);
+			path = czyRollerCoasterDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06CDD05B1F0DDBDB00B50523 /* czyRollerCoasterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CDD0891F0DDBDB00B50523 /* Build configuration list for PBXNativeTarget "czyRollerCoasterDemo" */;
+			buildPhases = (
+				06CDD0581F0DDBDB00B50523 /* Sources */,
+				06CDD0591F0DDBDB00B50523 /* Frameworks */,
+				06CDD05A1F0DDBDB00B50523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = czyRollerCoasterDemo;
+			productName = czyRollerCoasterDemo;
+			productReference = 06CDD05C1F0DDBDB00B50523 /* czyRollerCoasterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06CDD0741F0DDBDB00B50523 /* czyRollerCoasterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CDD08C1F0DDBDB00B50523 /* Build configuration list for PBXNativeTarget "czyRollerCoasterDemoTests" */;
+			buildPhases = (
+				06CDD0711F0DDBDB00B50523 /* Sources */,
+				06CDD0721F0DDBDB00B50523 /* Frameworks */,
+				06CDD0731F0DDBDB00B50523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06CDD0771F0DDBDB00B50523 /* PBXTargetDependency */,
+			);
+			name = czyRollerCoasterDemoTests;
+			productName = czyRollerCoasterDemoTests;
+			productReference = 06CDD0751F0DDBDB00B50523 /* czyRollerCoasterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06CDD07F1F0DDBDB00B50523 /* czyRollerCoasterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CDD08F1F0DDBDB00B50523 /* Build configuration list for PBXNativeTarget "czyRollerCoasterDemoUITests" */;
+			buildPhases = (
+				06CDD07C1F0DDBDB00B50523 /* Sources */,
+				06CDD07D1F0DDBDB00B50523 /* Frameworks */,
+				06CDD07E1F0DDBDB00B50523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06CDD0821F0DDBDB00B50523 /* PBXTargetDependency */,
+			);
+			name = czyRollerCoasterDemoUITests;
+			productName = czyRollerCoasterDemoUITests;
+			productReference = 06CDD0801F0DDBDB00B50523 /* czyRollerCoasterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06CDD0541F0DDBDB00B50523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = macOfEthan;
+				TargetAttributes = {
+					06CDD05B1F0DDBDB00B50523 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+					};
+					06CDD0741F0DDBDB00B50523 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06CDD05B1F0DDBDB00B50523;
+					};
+					06CDD07F1F0DDBDB00B50523 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06CDD05B1F0DDBDB00B50523;
+					};
+				};
+			};
+			buildConfigurationList = 06CDD0571F0DDBDB00B50523 /* Build configuration list for PBXProject "czyRollerCoasterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06CDD0531F0DDBDB00B50523;
+			productRefGroup = 06CDD05D1F0DDBDB00B50523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06CDD05B1F0DDBDB00B50523 /* czyRollerCoasterDemo */,
+				06CDD0741F0DDBDB00B50523 /* czyRollerCoasterDemoTests */,
+				06CDD07F1F0DDBDB00B50523 /* czyRollerCoasterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06CDD05A1F0DDBDB00B50523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CDD06F1F0DDBDB00B50523 /* LaunchScreen.storyboard in Resources */,
+				06CDD06C1F0DDBDB00B50523 /* Assets.xcassets in Resources */,
+				06CDD06A1F0DDBDB00B50523 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CDD0731F0DDBDB00B50523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CDD07E1F0DDBDB00B50523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06CDD0581F0DDBDB00B50523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CDD0671F0DDBDB00B50523 /* ViewController.m in Sources */,
+				06CDD0641F0DDBDB00B50523 /* AppDelegate.m in Sources */,
+				06CDD0611F0DDBDB00B50523 /* main.m in Sources */,
+				062B15081F0F617D00B2BFB7 /* CzyRollerCoasterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CDD0711F0DDBDB00B50523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CDD07A1F0DDBDB00B50523 /* czyRollerCoasterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CDD07C1F0DDBDB00B50523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CDD0851F0DDBDB00B50523 /* czyRollerCoasterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06CDD0771F0DDBDB00B50523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06CDD05B1F0DDBDB00B50523 /* czyRollerCoasterDemo */;
+			targetProxy = 06CDD0761F0DDBDB00B50523 /* PBXContainerItemProxy */;
+		};
+		06CDD0821F0DDBDB00B50523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06CDD05B1F0DDBDB00B50523 /* czyRollerCoasterDemo */;
+			targetProxy = 06CDD0811F0DDBDB00B50523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06CDD0681F0DDBDB00B50523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CDD0691F0DDBDB00B50523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06CDD06D1F0DDBDB00B50523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CDD06E1F0DDBDB00B50523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06CDD0871F0DDBDB00B50523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06CDD0881F0DDBDB00B50523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06CDD08A1F0DDBDB00B50523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = czyRollerCoasterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.czyRollerCoasterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06CDD08B1F0DDBDB00B50523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = czyRollerCoasterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.czyRollerCoasterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06CDD08D1F0DDBDB00B50523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = czyRollerCoasterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.czyRollerCoasterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/czyRollerCoasterDemo.app/czyRollerCoasterDemo";
+			};
+			name = Debug;
+		};
+		06CDD08E1F0DDBDB00B50523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = czyRollerCoasterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.czyRollerCoasterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/czyRollerCoasterDemo.app/czyRollerCoasterDemo";
+			};
+			name = Release;
+		};
+		06CDD0901F0DDBDB00B50523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = czyRollerCoasterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.czyRollerCoasterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = czyRollerCoasterDemo;
+			};
+			name = Debug;
+		};
+		06CDD0911F0DDBDB00B50523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = czyRollerCoasterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.czyRollerCoasterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = czyRollerCoasterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06CDD0571F0DDBDB00B50523 /* Build configuration list for PBXProject "czyRollerCoasterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CDD0871F0DDBDB00B50523 /* Debug */,
+				06CDD0881F0DDBDB00B50523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CDD0891F0DDBDB00B50523 /* Build configuration list for PBXNativeTarget "czyRollerCoasterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CDD08A1F0DDBDB00B50523 /* Debug */,
+				06CDD08B1F0DDBDB00B50523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CDD08C1F0DDBDB00B50523 /* Build configuration list for PBXNativeTarget "czyRollerCoasterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CDD08D1F0DDBDB00B50523 /* Debug */,
+				06CDD08E1F0DDBDB00B50523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CDD08F1F0DDBDB00B50523 /* Build configuration list for PBXNativeTarget "czyRollerCoasterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CDD0901F0DDBDB00B50523 /* Debug */,
+				06CDD0911F0DDBDB00B50523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06CDD0541F0DDBDB00B50523 /* Project object */;
+}
